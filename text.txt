@@ -1,2 +1,6 @@
-A A A 
-B B B 
+Git Rebase Tutorial
+
+My Branch
+A   B   C 
+
+His Branch
