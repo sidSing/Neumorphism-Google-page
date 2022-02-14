@@ -1,0 +1,26 @@
+@media (max-width: 53em) {
+  .search-bar {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 40em) {
+  body,
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 33em) {
+  body,
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width: 22em) {
+  body,
+  html {
+    font-size: 25%;
+  }
+}

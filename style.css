@@ -80,8 +80,8 @@ ion-icon {
   padding: 0.8rem;
   margin: 0 1.6rem;
   border-radius: 50%;
-  box-shadow: 0px 0px 4px skyblue, 8px 8px 13px rgb(110, 139, 148),
-    -8px -8px 13px rgb(195, 241, 255);
+  box-shadow: 0px 0px 0.4rem skyblue, 0.8rem 0.8rem 1.3rem rgb(110, 139, 148),
+    -0.8rem -0.8rem 1.3rem rgb(195, 241, 255);
   cursor: pointer;
 }
 
@@ -96,14 +96,14 @@ ion-icon {
   align-self: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0px 0px 8px skyblue, 8px 8px 13px rgb(110, 139, 148),
-    -8px -8px 13px rgb(195, 241, 255);
+  box-shadow: 0px 0px 0.8rem skyblue, 0.8rem 0.8rem 1.3rem rgb(110, 139, 148),
+    -0.8rem -0.8rem 1.3rem rgb(195, 241, 255);
 }
 
 .button:active,
 .button:focus {
-  box-shadow: 0px 0px 4px skyblue, 4px 4px 13px rgb(110, 139, 148),
-    -4px -4px 13px rgb(195, 241, 255);
+  box-shadow: 0px 0px 0.4rem skyblue, 0.4rem 0.4rem 1.3rem rgb(110, 139, 148),
+    -0.4rem -0.4rem 1.3rem rgb(195, 241, 255);
 }
 
 /* Class */
@@ -130,8 +130,9 @@ nav ul {
 .nav-user-icon {
   width: 3.4rem;
   height: 3.4rem;
-  box-shadow: 0px 0px 0px 2px rgb(87, 193, 235), 8px 8px 13px rgb(79, 132, 153),
-    -8px -8px 13px rgb(195, 238, 255);
+  box-shadow: 0px 0px 0px 0.2rem rgb(87, 193, 235),
+    0.8rem 0.8rem 1.3rem rgb(79, 132, 153),
+    -0.8rem -0.8rem 1.3rem rgb(195, 238, 255);
   border-radius: 50%;
 }
 
@@ -139,7 +140,7 @@ nav ul {
   font-family: "Press Start 2P", cursive;
   font-size: 4.4rem;
   margin: 6.4rem 0 1.6rem 0;
-  text-shadow: 4px 4px 0px grey;
+  text-shadow: 0.4rem 0px grey;
   box-sizing: content-box;
   padding: 1.2rem 2.4rem;
   border-radius: 8px;
@@ -166,8 +167,8 @@ main .container {
   grid-template-columns: 10fr 90fr 10fr;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 4px 4px 16px rgb(91, 138, 156),
-    inset -4px -4px 16px rgb(193, 238, 255);
+  box-shadow: inset 0.4rem 0.4rem 1.6rem rgb(91, 138, 156),
+    inset -0.4rem -0.4rem 1.6rem rgb(193, 238, 255);
   padding: 0 0.4rem;
 }
 
@@ -178,8 +179,8 @@ main .container {
   height: 100%;
   background: none;
   padding: 2.4rem 2.4rem;
-  box-shadow: inset 4px 4px 16px rgb(91, 138, 156),
-    inset -4px -4px 16px rgb(171, 222, 241);
+  box-shadow: inset 0.4rem 0.4rem 1.6rem rgb(91, 138, 156),
+    inset -0.4rem -0.4rem 1.6rem rgb(171, 222, 241);
   border-radius: 444px;
   font-size: 1.8rem;
   font-family: "Press Start 2P", cursive;
@@ -213,7 +214,7 @@ main .container {
 }
 
 .footer-country {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid skyblue;
   color: #f8f9fa !important ;
 }
 
